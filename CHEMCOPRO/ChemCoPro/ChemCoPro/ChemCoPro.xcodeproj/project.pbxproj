@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		294ADB017557C6D105A377E5 /* Pods_ChemCoPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3479E02C09A0E30B95AE6E2 /* Pods_ChemCoPro.framework */; };
+		61A4B6BB2AE3BADE006ECA1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6BA2AE3BADE006ECA1F /* AppDelegate.swift */; };
+		61A4B6BD2AE3BADE006ECA1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6BC2AE3BADE006ECA1F /* SceneDelegate.swift */; };
+		61A4B6BF2AE3BADE006ECA1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6BE2AE3BADE006ECA1F /* ViewController.swift */; };
+		61A4B6C22AE3BADE006ECA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A4B6C02AE3BADE006ECA1F /* Main.storyboard */; };
+		61A4B6C42AE3BADF006ECA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A4B6C32AE3BADF006ECA1F /* Assets.xcassets */; };
+		61A4B6C72AE3BADF006ECA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A4B6C52AE3BADF006ECA1F /* LaunchScreen.storyboard */; };
+		61A4B6CF2AE3BBB8006ECA1F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6CE2AE3BBB8006ECA1F /* CollectionViewCell.swift */; };
+		61A4B6D22AE3CB12006ECA1F /* Acetaminophen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6D12AE3CB12006ECA1F /* Acetaminophen.swift */; };
+		61A4B6D42AE3CB53006ECA1F /* Acetone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6D32AE3CB53006ECA1F /* Acetone.swift */; };
+		61A4B6D62AE3CB63006ECA1F /* AcetoaceticAcid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6D52AE3CB63006ECA1F /* AcetoaceticAcid.swift */; };
+		61A4B6D82AE3CB75006ECA1F /* Acidphosphatase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6D72AE3CB75006ECA1F /* Acidphosphatase.swift */; };
+		61A4B6E02AE3DA58006ECA1F /* SidemenuVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6DA2AE3DA58006ECA1F /* SidemenuVCc.swift */; };
+		61A4B6E12AE3DA58006ECA1F /* SidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6DB2AE3DA58006ECA1F /* SidemenuVC.swift */; };
+		61A4B6E22AE3DA58006ECA1F /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6DC2AE3DA58006ECA1F /* FeedbackVC.swift */; };
+		61A4B6E32AE3DA58006ECA1F /* sidemenuTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6DD2AE3DA58006ECA1F /* sidemenuTblCell.swift */; };
+		61A4B6E42AE3DA58006ECA1F /* Abtsvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6DE2AE3DA58006ECA1F /* Abtsvc.swift */; };
+		61A4B6E52AE3DA58006ECA1F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B6DF2AE3DA58006ECA1F /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31FC9AD3786C516B2BA6AE6F /* Pods-ChemCoPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChemCoPro.release.xcconfig"; path = "Target Support Files/Pods-ChemCoPro/Pods-ChemCoPro.release.xcconfig"; sourceTree = "<group>"; };
+		61A4B6B72AE3BADE006ECA1F /* ChemCoPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemCoPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A4B6BA2AE3BADE006ECA1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61A4B6BC2AE3BADE006ECA1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61A4B6BE2AE3BADE006ECA1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61A4B6C12AE3BADE006ECA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61A4B6C32AE3BADF006ECA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61A4B6C62AE3BADF006ECA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61A4B6C82AE3BADF006ECA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A4B6CE2AE3BBB8006ECA1F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		61A4B6D12AE3CB12006ECA1F /* Acetaminophen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acetaminophen.swift; sourceTree = "<group>"; };
+		61A4B6D32AE3CB53006ECA1F /* Acetone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acetone.swift; sourceTree = "<group>"; };
+		61A4B6D52AE3CB63006ECA1F /* AcetoaceticAcid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcetoaceticAcid.swift; sourceTree = "<group>"; };
+		61A4B6D72AE3CB75006ECA1F /* Acidphosphatase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acidphosphatase.swift; sourceTree = "<group>"; };
+		61A4B6DA2AE3DA58006ECA1F /* SidemenuVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVCc.swift; sourceTree = "<group>"; };
+		61A4B6DB2AE3DA58006ECA1F /* SidemenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVC.swift; sourceTree = "<group>"; };
+		61A4B6DC2AE3DA58006ECA1F /* FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		61A4B6DD2AE3DA58006ECA1F /* sidemenuTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidemenuTblCell.swift; sourceTree = "<group>"; };
+		61A4B6DE2AE3DA58006ECA1F /* Abtsvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abtsvc.swift; sourceTree = "<group>"; };
+		61A4B6DF2AE3DA58006ECA1F /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		6D1392B3EACF3C325E2E6AE3 /* Pods-ChemCoPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChemCoPro.debug.xcconfig"; path = "Target Support Files/Pods-ChemCoPro/Pods-ChemCoPro.debug.xcconfig"; sourceTree = "<group>"; };
+		B3479E02C09A0E30B95AE6E2 /* Pods_ChemCoPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChemCoPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61A4B6B42AE3BADE006ECA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294ADB017557C6D105A377E5 /* Pods_ChemCoPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6A48CB5F2346E5E40619F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D1392B3EACF3C325E2E6AE3 /* Pods-ChemCoPro.debug.xcconfig */,
+				31FC9AD3786C516B2BA6AE6F /* Pods-ChemCoPro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		61A4B6AE2AE3BADE006ECA1F = {
+			isa = PBXGroup;
+			children = (
+				61A4B6B92AE3BADE006ECA1F /* ChemCoPro */,
+				61A4B6B82AE3BADE006ECA1F /* Products */,
+				2A6A48CB5F2346E5E40619F7 /* Pods */,
+				9C383270545EF71C8D8B1EDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61A4B6B82AE3BADE006ECA1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61A4B6B72AE3BADE006ECA1F /* ChemCoPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61A4B6B92AE3BADE006ECA1F /* ChemCoPro */ = {
+			isa = PBXGroup;
+			children = (
+				61A4B6D92AE3DA58006ECA1F /* Sidemenufile */,
+				61A4B6D02AE3CAFA006ECA1F /* COnvertervc */,
+				61A4B6BA2AE3BADE006ECA1F /* AppDelegate.swift */,
+				61A4B6BC2AE3BADE006ECA1F /* SceneDelegate.swift */,
+				61A4B6BE2AE3BADE006ECA1F /* ViewController.swift */,
+				61A4B6CE2AE3BBB8006ECA1F /* CollectionViewCell.swift */,
+				61A4B6C02AE3BADE006ECA1F /* Main.storyboard */,
+				61A4B6C32AE3BADF006ECA1F /* Assets.xcassets */,
+				61A4B6C52AE3BADF006ECA1F /* LaunchScreen.storyboard */,
+				61A4B6C82AE3BADF006ECA1F /* Info.plist */,
+			);
+			path = ChemCoPro;
+			sourceTree = "<group>";
+		};
+		61A4B6D02AE3CAFA006ECA1F /* COnvertervc */ = {
+			isa = PBXGroup;
+			children = (
+				61A4B6D12AE3CB12006ECA1F /* Acetaminophen.swift */,
+				61A4B6D32AE3CB53006ECA1F /* Acetone.swift */,
+				61A4B6D52AE3CB63006ECA1F /* AcetoaceticAcid.swift */,
+				61A4B6D72AE3CB75006ECA1F /* Acidphosphatase.swift */,
+			);
+			path = COnvertervc;
+			sourceTree = "<group>";
+		};
+		61A4B6D92AE3DA58006ECA1F /* Sidemenufile */ = {
+			isa = PBXGroup;
+			children = (
+				61A4B6DA2AE3DA58006ECA1F /* SidemenuVCc.swift */,
+				61A4B6DB2AE3DA58006ECA1F /* SidemenuVC.swift */,
+				61A4B6DC2AE3DA58006ECA1F /* FeedbackVC.swift */,
+				61A4B6DD2AE3DA58006ECA1F /* sidemenuTblCell.swift */,
+				61A4B6DE2AE3DA58006ECA1F /* Abtsvc.swift */,
+				61A4B6DF2AE3DA58006ECA1F /* Helper.swift */,
+			);
+			path = Sidemenufile;
+			sourceTree = "<group>";
+		};
+		9C383270545EF71C8D8B1EDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3479E02C09A0E30B95AE6E2 /* Pods_ChemCoPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61A4B6B62AE3BADE006ECA1F /* ChemCoPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A4B6CB2AE3BADF006ECA1F /* Build configuration list for PBXNativeTarget "ChemCoPro" */;
+			buildPhases = (
+				E3DF09563474058A3AF37FB7 /* [CP] Check Pods Manifest.lock */,
+				61A4B6B32AE3BADE006ECA1F /* Sources */,
+				61A4B6B42AE3BADE006ECA1F /* Frameworks */,
+				61A4B6B52AE3BADE006ECA1F /* Resources */,
+				C323FE2F87AC42436FB520CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChemCoPro;
+			productName = ChemCoPro;
+			productReference = 61A4B6B72AE3BADE006ECA1F /* ChemCoPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61A4B6AF2AE3BADE006ECA1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					61A4B6B62AE3BADE006ECA1F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 61A4B6B22AE3BADE006ECA1F /* Build configuration list for PBXProject "ChemCoPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61A4B6AE2AE3BADE006ECA1F;
+			productRefGroup = 61A4B6B82AE3BADE006ECA1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61A4B6B62AE3BADE006ECA1F /* ChemCoPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61A4B6B52AE3BADE006ECA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A4B6C72AE3BADF006ECA1F /* LaunchScreen.storyboard in Resources */,
+				61A4B6C42AE3BADF006ECA1F /* Assets.xcassets in Resources */,
+				61A4B6C22AE3BADE006ECA1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C323FE2F87AC42436FB520CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChemCoPro/Pods-ChemCoPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChemCoPro/Pods-ChemCoPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChemCoPro/Pods-ChemCoPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3DF09563474058A3AF37FB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChemCoPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61A4B6B32AE3BADE006ECA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A4B6D22AE3CB12006ECA1F /* Acetaminophen.swift in Sources */,
+				61A4B6E52AE3DA58006ECA1F /* Helper.swift in Sources */,
+				61A4B6E22AE3DA58006ECA1F /* FeedbackVC.swift in Sources */,
+				61A4B6D82AE3CB75006ECA1F /* Acidphosphatase.swift in Sources */,
+				61A4B6E42AE3DA58006ECA1F /* Abtsvc.swift in Sources */,
+				61A4B6E12AE3DA58006ECA1F /* SidemenuVC.swift in Sources */,
+				61A4B6D62AE3CB63006ECA1F /* AcetoaceticAcid.swift in Sources */,
+				61A4B6D42AE3CB53006ECA1F /* Acetone.swift in Sources */,
+				61A4B6BF2AE3BADE006ECA1F /* ViewController.swift in Sources */,
+				61A4B6E02AE3DA58006ECA1F /* SidemenuVCc.swift in Sources */,
+				61A4B6E32AE3DA58006ECA1F /* sidemenuTblCell.swift in Sources */,
+				61A4B6BB2AE3BADE006ECA1F /* AppDelegate.swift in Sources */,
+				61A4B6CF2AE3BBB8006ECA1F /* CollectionViewCell.swift in Sources */,
+				61A4B6BD2AE3BADE006ECA1F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61A4B6C02AE3BADE006ECA1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61A4B6C12AE3BADE006ECA1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61A4B6C52AE3BADF006ECA1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61A4B6C62AE3BADF006ECA1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61A4B6C92AE3BADF006ECA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61A4B6CA2AE3BADF006ECA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61A4B6CC2AE3BADF006ECA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1392B3EACF3C325E2E6AE3 /* Pods-ChemCoPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChemCoPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ChemCoPro;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.ChemCoPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		61A4B6CD2AE3BADF006ECA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FC9AD3786C516B2BA6AE6F /* Pods-ChemCoPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChemCoPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ChemCoPro;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.ChemCoPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61A4B6B22AE3BADE006ECA1F /* Build configuration list for PBXProject "ChemCoPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A4B6C92AE3BADF006ECA1F /* Debug */,
+				61A4B6CA2AE3BADF006ECA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A4B6CB2AE3BADF006ECA1F /* Build configuration list for PBXNativeTarget "ChemCoPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A4B6CC2AE3BADF006ECA1F /* Debug */,
+				61A4B6CD2AE3BADF006ECA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61A4B6AF2AE3BADE006ECA1F /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_BaseXpertPro {
+  umbrella header "Pods-BaseXpertPro-umbrella.h"
+
+  export *
+  module * { export * }
+}
